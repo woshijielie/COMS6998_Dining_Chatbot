@@ -1,12 +1,11 @@
 # Chatbot Concierge #
- - Team members: Zhenrui Chen(zc2569), Hanfu Shi(hs3239)
+ - Team members: Zhenrui Chen, Hanfu Shi
  - URL: https://s3.amazonaws.com/bestchatbox.com/chat.html
 
 ## About ##
 This assignment implements a Dining Concierge chatbot that sends restaurant suggestions based on a set of preferences provided by user. 
 
-## Extra Credits ##
-For extra credits part, we store user's phone number and previous recommendation messages at "StoredRecommendation" at DynamoDB. If user is already in the database,  we make extra recommendations based on user's previous inputs. If we did not find user in the database, we simply add user to the database.
+Also, we store user's phone number and previous recommendation messages at "StoredRecommendation" at DynamoDB. If user is already in the database,  we make extra recommendations based on user's previous inputs. If we did not find user in the database, we simply add user to the database.
 
 ## Development Process ##
 1. Build and deploy the frontend of the application on AWS S3 bucket.
